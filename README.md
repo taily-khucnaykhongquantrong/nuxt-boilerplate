@@ -2,9 +2,15 @@
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Requirements
+## Requirements (VSCode)
 
-Make sure to install the recommended extensions to sync the development experience if you are using VSCode.
+1. Make sure to install the recommended extensions to sync the development experience if you are using VSCode.
+
+2. Search for `@builtin typescript` in Extensions tab.
+
+3. Disable extension "TypeScript and JavaScript Language Features" for this workspace only to enable Takeover mode.
+
+> [What is Takeover Mode?](https://vuejs.org/guide/typescript/overview.html#volar-takeover-mode)
 
 ## Setup
 
