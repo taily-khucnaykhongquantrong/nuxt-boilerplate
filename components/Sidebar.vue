@@ -1,0 +1,10 @@
+<template>
+  <nav>
+    <ul>
+      <li>
+        <span>Icon</span>
+        <span>Home</span>
+      </li>
+    </ul>
+  </nav>
+</template>

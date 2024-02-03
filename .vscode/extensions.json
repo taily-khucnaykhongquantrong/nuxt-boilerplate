@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "antfu.goto-alias",
+    "esbenp.prettier-vscode",
+    "stylelint.vscode-stylelint",
+    "bradlc.vscode-tailwindcss",
+    "Vue.volar",
+    "Vue.vscode-typescript-vue-plugin",
+    "sdras.vue-vscode-snippets"
+  ]
+}
