@@ -2,8 +2,11 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-    "@nuxtjs/eslint-module",
-    "@nuxtjs/stylelint-module",
+    ["@nuxtjs/eslint-module", { lintOnStart: false }],
+    ["@nuxtjs/stylelint-module", { lintOnStart: false }],
     "@nuxtjs/tailwindcss",
   ],
+  tailwindcss: {
+    exposeConfig: true,
+  },
 });

@@ -7,7 +7,6 @@ module.exports = {
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:vue/vue3-recommended",
-    "@nuxt/eslint-config",
     "prettier",
   ],
   overrides: [
@@ -15,7 +14,7 @@ module.exports = {
       env: {
         node: true,
       },
-      files: [".eslintrc.{js,cjs}"],
+      files: ["*.cjs"],
       parserOptions: {
         sourceType: "script",
       },
@@ -28,11 +27,6 @@ module.exports = {
   },
   plugins: ["@typescript-eslint", "vue"],
   rules: {
-    "vue/multi-word-component-names": [
-      "error",
-      {
-        ignores: ["index", "default"],
-      },
-    ],
+    "vue/multi-word-component-names": "off",
   },
 };
